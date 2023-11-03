@@ -1,0 +1,74 @@
+
+body {
+    width: 100%;
+}
+.card {
+    background: white;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    height: 50%;
+    
+    border-radius: 15px;
+    text-align: center;
+}
+.card .img .imagem{
+    width: 400px;;
+    height: 30em;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 25px;
+}
+.card .img .imagem:hover{
+    transform: scale(1.02);
+
+    transition: all 0.4s ease-in-out;
+}
+
+.box_logo {
+   
+}
+.box_logo img{
+    width: 4em;
+    border: 0;
+    border-radius: 50px;
+    position: fixed;
+    left: 0%;
+}
+
+.title p{
+    font-size: 125%;
+}
+
+.controls .ico{
+    height: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 50px;
+}
+
+.controls .ico:hover{
+    transition:all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: scale(1.1);
+}
+
+
+input {
+    transition: all 0.3s ease-out;
+    appearance: none;
+    background: #000000;
+    width: 20em;
+    border: 1px solid black;
+    margin-bottom: 4%;
+    height: 11px;
+    border: 0;
+    border-radius: 50px 25px;
+}
+
+input::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #adadad;
+    border-radius: 50px;
+}
